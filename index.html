@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Date Counter</title>
+  <meta name="description" content="Find out how many days passed since a certain date, or between two dates, or what date will ti be in x days.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1>Date Counter</h1>
+
+<form>
+  <fieldset>
+    <h2>Number of days since:</h2>
+    
+    
+    
+    <label for="day1">day</label>
+    <input type="number" min="1" max="31" id="day1" name="day1" placeholder="dd" value="10">
+    
+    <label for="month1">month</label>
+    <input type="number" min="1" max="12" id="month1" name="month1" placeholder="mm" value="12">
+    
+    <label for="year1">year</label>
+    <input type="number" min="1919" max="2019" id="year1" name="year1" placeholder="yyyy" value="1993">
+    
+    <p class="format">dd/mm/yyyy</p>
+    
+    <p><span class="result" id="result1">xxx</<span></p>
+  </fieldset>
+</form>
+
+<form>
+  <fieldset>
+    <h2>Date in x days:</h2>
+    
+    <label for="day2">days</label>
+    <input type="number" min="1" max="100000" id="day2" name="day2" placeholder="days" value="7">
+    
+    <p class="format">dddd</p>
+    
+    <p><span class="result" id="result2">xxx</<span></p>
+  </fieldset>
+</form>
+
+<form>
+  <fieldset>
+    <h2>Days between two dates:</h2>
+    
+    <label for="day3">day</label>
+    <input type="number" min="1" max="31" id="day3" name="day3" placeholder="dd" value="10">   
+    <label for="month3">month</label>
+    <input type="number" min="1" max="12" id="month3" name="month3" placeholder="mm" value="12">    
+    <label for="year3">year</label>
+    <input type="number" min="1919" max="2019" id="year3" name="year3" placeholder="yyyy" value="1993">
+    <br><br>
+    <label for="day4">day</label>
+    <input type="number" min="1" max="31" id="day4" name="day4" placeholder="dd" value="12">
+    <label for="month4">month</label>
+    <input type="number" min="1" max="12" id="month4" name="month4" placeholder="mm" value="12">    
+    <label for="year4">year</label>
+    <input type="number" min="1919" max="2019" id="year4" name="year4" placeholder="yyyy" value="1993">
+    
+    <p class="format">dd/mm/yyyy</p>
+    
+    <p><span class="result" id="result3">xxx</<span></p>
+  </fieldset>
+</form>
+
+<footer>
+  <p>Created by <a href="https://remybeumier.be" target="_blank">Rémy Beumier</a> with love</p>
+</footer>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
